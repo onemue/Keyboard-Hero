@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>键盘侠-Keyboard Hero</title>
+    <link rel="stylesheet" href="css/init.css">
+    <link rel="stylesheet" href="css/view.css">
+    <link rel="stylesheet" href="css/bottom.css">
+    <link rel="stylesheet" href="css/space.css">
+    <link rel="stylesheet" href="css/musicControl.css">
+</head>
+
+<body onKeyPress="keyCheck(event)">
+
+    <div id="topMusicControl">
+        <audio id="topMusicControlAudio" autoplay="true" controls="controls" loop="true">
+            <source src="music/dylanf - 卡农（经典钢琴版）（Cover Johann Pachelbel）.mp3" type="audio/mpeg" />
+            您的浏览器不支持播放音乐。
+        </audio>
+    </div>
+    <div id="view" onselectstart="return flase" >
+        <h1 id="title">键盘侠<br>Keyboard Hero</h1>
+        <button id="changeMusic">更换音乐</button>
+        <button id="help">帮助</button>
+        <button id="start" onclick="start()">开始</button>
+    </div>
+    <div id="liftSpace" class="space"></div>
+    <div id="RightSpace" class="space"></div>
+    <div id="bottom">
+        抵制不良游戏 拒绝盗版游戏&emsp;注意自我保护 谨防受骗上当&emsp;适度游戏益脑 沉迷游戏伤身&emsp;合理安排时间 享受健康生活<br>
+        Resist bad games &emsp; beware of being cheated &emsp; indulge in games hurts the body<br>
+        <a href="mailto://onEmue@yeah.net" onclick="">onEmue@yeah.net</a> 开发设计<br>
+        <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache Licence 2.0</a>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
