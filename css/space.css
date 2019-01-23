@@ -1,0 +1,15 @@
+.space{
+    width: 15%;
+    height: 100%;
+    top: 0px;
+}
+#liftSpace{
+    left: 0px;
+    position: fixed;
+    background: #ff534d;
+}
+#RightSpace{
+    right: 0px;
+    position: fixed;
+    background: #ff534d;
+}
