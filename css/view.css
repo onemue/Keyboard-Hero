@@ -1,0 +1,69 @@
+#view{
+    width: 70%;
+    height: 600px;
+    background: #007FFF;
+    margin: 50px auto;
+    
+}
+#start{
+    width: 300px;
+    height: 30px;
+    margin: auto;  
+    position: absolute;  
+    top: 250px; 
+    left: 0; 
+    bottom: 0; 
+    right: 0; 
+    background: #fff;
+    color: #696969;
+    border-radius: 0 0 50px 50px;
+}
+#start:hover{
+    color: #000000;
+    background: #F5F5F5
+}
+#changeMusic{
+    width: 184.9px;
+    height: 30px;
+    margin: auto;  
+    position: absolute;  
+    top: 189px; 
+    left: 0; 
+    bottom: 0; 
+    right: 115.1px; 
+    background: #fff;
+    color: #696969;
+    border-radius: 50px 0 0 0;
+}
+#changeMusic:hover{
+    color: #000000;
+    background: #F5F5F5
+}
+#help{
+    width: 114.1px;
+    height: 30px;
+    margin: auto;  
+    position: absolute;  
+    top: 189px; 
+    left: 185.9px; 
+    bottom: 0; 
+    right: 0; 
+    background: #fff;
+    color: #696969;
+    border-radius: 0 50px 0 0;
+}
+#help:hover{
+    color: #000000;
+    background: #F5F5F5
+}
+#title{
+    width: 245px;
+    height: 48px;
+    margin: auto;  
+    position: absolute;  
+    top: -150px; 
+    left: 0; 
+    bottom: 0; 
+    right: 0; 
+    
+}
