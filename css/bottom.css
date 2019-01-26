@@ -1,0 +1,12 @@
+#bottom{
+    margin-top: -50px;
+    position: fixed;
+    bottom: 0px;
+    width: 70%;
+    height: 80px;
+    background: #00000090;
+    color: #ffffff;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+}

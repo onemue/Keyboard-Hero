@@ -9,7 +9,9 @@ function start() {
     start.style.display = 'none';
     changeMusic.style.display = 'none';
     help.style.display = 'none';
-    changeKeyList();
+    // changeKeyList();
+    document.getElementById('topMusicControlAudio').fastSeek(0);
+    setInterval("music()", 10);
 }
 
 function keyCheck(event) {
